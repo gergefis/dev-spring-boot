@@ -11,4 +11,14 @@ public class FunRestController {
 	public String sayHello() {
 		return "Hello World!";
 	}
+//	Expose "/" that return workout information
+	@GetMapping("/workout")
+	public String getDailyWorkout() {
+		return "Run hard for 5k!";
+	}
+//	Expose "/" that return fortune information
+	@GetMapping("fortune")
+	public String getDailyFortune() {
+		return "Today is your lucky day.";
+	}
 }
