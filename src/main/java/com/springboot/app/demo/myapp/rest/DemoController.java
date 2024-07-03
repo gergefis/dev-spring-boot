@@ -16,7 +16,7 @@ public class DemoController{
 	public void setCoach(@Qualifier("tennisCoach") Coach theCoach){
 		myCoach = theCoach;
 	}
-	@GetMapping("/dailywkout")
+	@GetMapping("/dailyworkout")
 	public String getDailyWorkout(){
 		return myCoach.getDailyWorkout();
 	}
