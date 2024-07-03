@@ -7,6 +7,6 @@ public class TennisCoach implements Coach {
 
 	@Override
 	public String getDailyWorkout(){
-		return "Practice your backhand volley";
+		return "Practice yr backhand volley";
 	}
 }
